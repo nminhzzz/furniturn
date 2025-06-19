@@ -1,0 +1,257 @@
+extends  partials/layout.pug
+
+block main
+    div(class="notification")
+        p Get 20% OFF on your first order. Subscribe to our newsletter and get your coupon!    
+            strong   Subscribe 
+            <i class="fa-solid fa-arrow-right"></i> 
+    div(class="section0")
+        div(class="section0__contact")
+                    div(class="section0__box")
+                        div(class="section0__bar")
+                            div(class="section0__logo")
+                                img(src="assets/image/sec1-logo.png", alt="logo")
+                            div(class="section0__small")
+                                div(class="section0__avatar")
+                                    img(src="assets/image/sec1-avater.png", alt="avatar")
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                div(class="section0__dots") ...
+                                div(class="section0__dash") -
+                        div(class="section0__chat") Chat with Page Name
+                        div(class="section0__hi") Hi! How can we help you?
+                        button(class="section0__submit")
+                            <i class="fab fa-instagram"></i> Continue as Seth
+                        button(class="section0__guest") Continue as Guest
+                        div(class="section0__law") By continuing as a guest, you agree to Facebook’s Terms, Data Policy and Cookies Policy.
+                    div(class="section0__message")
+                        div(class="section0__icon")
+                            <i class="fab fa-facebook-messenger"></i> <!-- Messenger -->
+    div(class="section1")
+        div(class="section1__container")
+            div(class="section1__content")
+                div(class="section1__title") Cozy is around the corner !!
+                div(class="section1__describe") Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam neque ultrices.
+                div(class="section1__button")
+                    button(class="section1__button--primary") See more
+                        <i class="fa-solid fa-arrow-right"></i>
+                    button(class="section1__button--secondary") Talk to sales
+            
+            
+                
+                        
+
+    div(class="section2")
+        div(class="section2__container")
+            div(class="section2__info")
+                h2(class="section2__title") Fall is coming
+                p(class="section2__description")
+                    | The visual guide will provide a view to the customer of what their website or project
+            div(class="section2__products")
+                each item in ['sec2-1.png', 'sec2-2.png', 'sec2-3.png']
+                    div(class="section2__product")
+                        img.section2__image(src="assets/image/" + item, alt="Product")
+                        p.section2__label Best Seller
+     
+    div(class="title")
+        div(class="title__content")
+            | "Some people look for a beautiful place, others make a place beautiful"
+    
+    div(class="section3")
+        div(class="section3__container")
+            div(class="section3__title") Our Best Seller of all time
+            div(class="section3__describe") Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam neque ultrices.
+            div(class="section3__button")
+                button See more 
+                    <i class="fa-solid fa-arrow-right"></i>
+    div(class="title2")
+        div(class="title2__content")
+            |See our products by types of room
+
+
+
+
+    div(class="section4")
+        div(class="section4__container")
+            div(class="section4__gradient")
+
+            div(class="section4__content")
+                h2(class="section4__title") Living Room
+                a(class="section4__link" href="#") Shop the room
+                    <i class="fa-solid fa-chevron-right"></i>
+
+            // Label 1 - Neda White Painted Cementstone Bowl
+            div(class="section4__label section4__label--1")
+                p(class="section4__price") $939.95
+                p(class="section4__name") Neda White Painted
+                p(class="section4__name") Cementstone Bowl
+
+            // Label 2 - Quartz Veil Table Chunky Base
+            div(class="section4__label section4__label--2")
+                p(class="section4__price") $4,499
+                p(class="section4__name") Quartz Veil Table
+                p(class="section4__name") Chunky Base
+
+            // Label 3 - Suki Arm Vintage Velvet Accent Chair
+            div(class="section4__label section4__label--3")
+                p(class="section4__price") $1,209
+                p(class="section4__name") Suki Arm Vintage
+                p(class="section4__name") Velvet Accent Chair
+    
+
+    div(class="section5")
+        div(class="section5__container")
+            div(class="section5__gradient")
+            div(class="section5__content")
+                h2(class="section5__title") Dining Room
+                p(class="section5__describe") Shop the room
+                    <i class="fa-solid fa-chevron-right"></i>
+            div(class="section5__label section5__label--1  ")
+                p(class="section5__price") $1.299
+                p(class="section5__name") Sculpt Warm Beige Velvet Accent Chair 
+            div(class="section5__label section5__label--2 ")
+                p(class="section5__price") $99.95
+                p(class="section5__name") Nerida White Footed Centerpiece Bowl 
+            div(class="section5__label section5__label--3 ")
+                p(class="section5__price section5__newprice") $4,499
+                p(class="section5__name section5__newname") Gustav 92" Marble Dining Table
+
+    div(class="section6")
+        div(class="section6__container")
+            div(class="section6__gradient")
+            div(class="section6__content")
+                h2(class="section6__title") Kitchen
+                p(class="section6__describe") Shop the room
+                    <i class="fa-solid fa-chevron-right"></i>
+            div(class="section6__label section6__label--1  ")
+                p(class="section6__price") $99.95
+                p(class="section6__name") Sculpt Warm Beige Velvet Accent Chair 
+            div(class="section6__label section6__label--2 ")
+                p(class="section6__price") $1.299
+                p(class="section6__name") Nerida White Footed Centerpiece Bowl 
+            div(class="section6__label section6__label--3 ")
+                p(class="section6__price section6__newprice") $4,499
+                p(class="section6_name section6__newname") Gustav 92" Marble Dining Table
+
+
+
+    div(class="section7")
+        div(class="section7__container")
+            div(class="section7__gradient")
+            div(class="section7__content")
+                h2(class="section7__title") BedRoom
+                p(class="section7__describe") Shop the room
+                    <i class="fa-solid fa-chevron-right"></i>
+            div(class="section7__label section7__label--1  ")
+                p(class="section7__price") $1.299
+                p(class="section7__name") Sculpt Warm Beige Velvet Accent Chair 
+            div(class="section7__label section7__label--2 ")
+                p(class="section7__price") $99.95
+                p(class="section7__name") Nerida White Footed Centerpiece Bowl 
+            div(class="section7__label section7__label--3 ")
+                p(class="section7__price section7__newprice") $4,499
+                p(class="section7__name section7__newname") Gustav 92" Marble Dining Table
+
+
+    div(class="title3")
+        div(class="title3__content") “I am going to make everything around me beautiful, that will be my life.” 
+
+    div(class="section8")
+        div(class="section8__top")
+            div(class="section8__top--container")
+                div(class="section8__title") Our Collections
+                div(class="section8__describe") Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan. 
+        div(class="section8__bottom")
+            div(class="section8__list")
+                - 
+                    var items =[
+                        { name :'Kids lighting', button:'See more',image:'assets/image/sec8-1.jpg' },
+                        { name :'Woven decor', button:'See more',image:'assets/image/sec8-2.jpg' },
+                        { name :'Xmas decor', button:'See more',image:'assets/image/sec8-3.jpg' },
+                        { name :'Halloween decor', button:'See more',image:'assets/image/sec8-4.jpg' }
+                    ];
+                each item in items
+                    div(class="section8__item") 
+                        p(class="section8__name") #{item.name}
+                        button #{item.button} 
+                        img(src=item.image, alt="")
+    
+
+    div(class="section9")
+        div(class="section9__container")
+            div(class="section9__title") Our Stock
+            div(class="section9__box1")
+                div(class="section9__box1--left")
+                    img(src="assets/image/sec9-armchair.png", alt="")
+                    img(src="assets/image/sec9-ottoman.png", alt="")
+                div(class="section9__box1--right")
+                    img(src="assets/image/sec9-chair.png", alt="")
+                    img(src="assets/image/sec9-couch.png", alt="")
+            div(class="section9__box2")
+                img(src="assets/image/sec9-table.png", alt="")
+                
+            div(class="section9__box3")
+                img(src="assets/image/sec9-lamp.png", alt="")
+                img(src="assets/image/sec9-carpet.png", alt="")
+                img(src="assets/image/sec9-pillow.png", alt="")
+    
+    div(class="section10")
+        div(class="section10__container")
+            div(class="section10__top")
+                div(class="section10__top--width")
+                    div(class="section10__title") What our clients say
+                    div(class="section10__describe") Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan. 
+            div(class="section10__bottom")
+                div(class="section10__icon")
+                    <i class="fa-solid fa-chevron-left"></i>
+                div(class="section10__list")
+                    -
+                        var persons=[
+                            {
+                                describe:"A visual guide could be a wireframe, creative composition, or information architecture. A device that enables collaboration will lessen the chance of work having to be completely redone.",
+                                avatar:'assets/image/sec10-a1.jpg',
+                                name:'John Carter',
+                                job:'Head of Marketing',
+                            },
+                            {
+                                describe:"A visual guide could be a wireframe, creative composition, or information architecture. A device that enables collaboration will lessen the chance of work having to be completely redone.",
+                                avatar:'assets/image/sec10-a2.jpg',
+                                name:'Matt Cannon',
+                                job:'Testimonial Role',
+                            },
+                            {
+                                describe:"A visual guide could be a wireframe, creative composition, or information architecture. A device that enables collaboration will lessen the chance of work having to be completely redone.",
+                                avatar:'assets/image/sec10-a3.jpg',
+                                name:'Sophie Moore',
+                                job:'Lead Developer',
+                            }
+                        ];
+                    each person in persons 
+                        div(class="section10__item")
+                            div(class="section10__content") #{person.describe} 
+                            div(class="section10__info")
+                                div(class="section10__item--avatar")
+                                    img(src=person.avatar, alt="")
+                                div(class="section10__item--describe")
+                                    strong #{person.name} 
+                                    p #{person.job} 
+                div(class="section10__icon")
+                    <i class="fa-solid fa-chevron-right"></i>
+
+    div(class="section11")
+        div(class="section11__container")
+            div(class="section11__left")
+                h2(class="section11__title") Contact us
+                p(class="section11__describe") Prototypes may also be exempted from some requirements that will apply to the final product
+                ul(class="section11__contact")
+                    li 
+                        <i class="fa-solid fa-envelope"></i>
+                        | contact@company.com
+                    li 
+                        <i class="fa-solid fa-phone"></i>
+                        | (123) 456 - 789
+                    li 
+                        <i class="fa-solid fa-location-dot"></i>
+                        | 794 Mcallister St San Francisco, 94102
+                    
+            div(class="section11__right")
+                img(src="assets/image/sec11-map.png", alt="")
