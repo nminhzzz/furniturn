@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title sign in 
+        link(rel="stylesheet", href="assets/css/style.css")
+        link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css")
+    body 
+        div(class="signin")
+            div(class="signin__container")
+                div(class="signin__title") SIGN IN
+                form(action="#" class="signin__form")
+                    label(for="phone") phone:
+                        br
+                        input( class="signin__input1" type="phone" id="phone" placeholder="Nhập số điện thoại")
+                        p(class="signin__error--phone")
+                    label(for="password1") password:
+                        br
+                        input(class="signin__input2" type="password" id="password1" placeholder="nhập mật khẩu của bạn")
+                        p(class="signin__error--password1")
+                    button(class="signin__submit") SIGN IN
+                    p(class="signin__signup") signup
+
+
+        script(src="assets/js/signin.js")

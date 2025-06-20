@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title sign up 
+        link(rel="stylesheet", href="assets/css/style.css")
+        link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css")
+    body 
+        div(class="signup")
+            div(class="signup__container")
+                div(class="signup__title") SIGN UP
+                form(action="#" class="signup__form")
+                    label(for="phone") phone:
+                        br
+                        input( class="signup__input1" type="phone" id="phone" placeholder="Nhập số điện thoại")
+                        p(class="signup__error--phone")
+                    label(for="password1") password:
+                        br
+                        input(class="signup__input2" autocomplete="new-password"  type="password" id="password1" placeholder="nhập mật khẩu của bạn")
+                        p(class="signup__error--password1")
+                    label(for="password2") password:  
+                        br
+                        input(class="signup__input3" autocomplete="new-password"  type="password" id="password2" placeholder="nhập lại mật khẩu của bạn")
+                        p(class="signup__error--password2")
+                    button(class="signup__signup") SIGN UP
+
+
+
+
+
+
+                    
+        script(src="assets/js/signup.js")

@@ -21,8 +21,8 @@ div(class="header")
                 <i class="fa-solid fa-cart-shopping"></i>
                 p Cart
             a(href="#")
-                <i class="fa-regular fa-user"></i>
-                p Account
+                <i class="fa-regular fa-user header__avatar"></i>
+                p(class="header__name") Account
         div(class="header__iconmenu")
             <i class="fa-solid fa-bars"></i>
     div(class="header__between")
@@ -31,9 +31,57 @@ div(class="header")
             <i class="fa-solid fa-magnifying-glass"></i> 
     div(class="header__bottom")
         ul(class="header__menu")
-            li Home 
-            li Products 
-            li Rooms 
-            li Collection 
-            li About 
-            li Contact
+            li(class="header__menu--home") Home 
+            li(class="header__menu--product") Products
+                div(class="products")
+                    div(class="products__container")
+                        div(class="products__content")
+                            ul(class="products__item")
+                                li Couch
+                                li Armchair
+                                li Chair
+                                li Ottoman
+                                img(src="assets/image/product-1.png", alt="")
+                            ul(class="products__item")
+                                li Coffee Table
+                                li Dining Table
+                                li Work Table
+                                li Conference Table
+                                img(src="assets/image/product-2.png", alt="")
+                            ul(class="products__item")
+                                li Regular
+                                li Bunk Bed
+                                li Trundle
+                                li Four-Poster
+                                img(src="assets/image/product-3.png", alt="")
+                            ul(class="products__item")
+                                li Table Lamp
+                                li Desk Lamp
+                                li Floor Lamp
+                                li Ceiling Lighting
+                                img(src="assets/image/product-4.png", alt="")
+                            ul(class="products__item")
+                                li Carpet
+                                li Pillow
+                                li Trees
+                                li Mirror
+                                img(src="assets/image/product-5.png", alt="") 
+            li(class="header__menu--room") Rooms 
+            li(class="header__menu--collection") Collection
+                div(class="collection")
+                    div(class="collection__container") 
+                        div(class="collection__content")
+                            ul(class="collection__list")
+                                li Holidays
+                                li Minimalism
+                                li Modern
+                                li Wooden
+                                li View all 
+                                    <i class="fa-solid fa-chevron-right"></i>
+
+            li(class="header__menu--about") About 
+            li(class="header__menu--contact") 
+    
+
+
+                
